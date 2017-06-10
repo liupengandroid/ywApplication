@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+<style name="raidbuttonstyle">
+    <item name="android:layout_height" >30dp</item>
+    <item name="android:focusable">false</item>
+    <item name="android:layout_width">70dp</item>
+    <item name="android:background" >@drawable/home_item_zan_shap</item>
+    <item name="android:gravity">center</item>
+    <item name="android:paddingRight">10dp</item>
+    <item name="android:textSize">10dp</item>
+    <item name="android:paddingLeft">10dp</item>
+</style>
+    
+    <style name="textStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

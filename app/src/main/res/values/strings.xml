@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">yinweiApplication</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_guid">GuidActivity</string>
+    <string name="title_activity_gird_view">GirdViewActivity</string>
+    <string name="huodongxiangqing">活动详情</string>
+    <string name="title_activity_bd_location">BdLocationActivity</string>
+</resources>

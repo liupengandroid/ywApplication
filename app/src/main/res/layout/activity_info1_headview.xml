@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gainsboro">
+    <ImageView
+        android:id="@+id/head_image"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <TextView
+        android:id="@+id/textView_info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+    <LinearLayout
+        android:id="@+id/select_info1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+        <ImageView
+            android:id="@+id/list_selector"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/topic_detail_list_select_flag"
+            android:background="@drawable/topic_detail_list"
+            />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+        <ImageView
+            android:id="@+id/grid_selector"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/topic_detail_gride"
+            />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

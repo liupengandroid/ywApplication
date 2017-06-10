@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameId"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+    <ImageView
+        android:id="@+id/image_backGround"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+
+    <com.example.yinweiapplication.View.CircleImageView
+        android:id="@+id/circleId"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:paddingTop="80dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp">
+
+        <TextView
+            android:id="@+id/mem_name_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="lalaa"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mem_care_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mem_name_circle"
+            android:layout_centerHorizontal="true"
+            android:text="+关注"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="@drawable/shape_headcenter_rb_white"
+            />
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/mem_care_circle"
+            android:background="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/degreeId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_below="@id/image1"
+            android:text="fdvgk"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+
+            />
+        <TextView
+            android:id="@+id/jifenId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_below="@id/image1"
+            android:layout_toRightOf="@id/degreeId"
+            android:layout_marginTop="10dp"
+            android:text="fdvgk"
+            android:layout_marginLeft="100dp"
+            />
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/jifenId"
+            android:background="@color/white"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/num_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image2"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+</FrameLayout>
