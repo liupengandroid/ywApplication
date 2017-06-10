@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
         ViewUtils.inject(this);
         initFragments();
         FragmentTabUtils fragmentTalUtils = new FragmentTabUtils(getSupportFragmentManager(),fragments,R.id.main_activity_zhanweilayout,raiogroup);
-        //
+        // 
     }
 
     private void initFragments() {
